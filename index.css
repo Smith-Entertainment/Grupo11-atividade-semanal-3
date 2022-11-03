@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.body{ 
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    padding: 5px; 
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.nav{
+    display: flex;
+    gap: 32px;
+}
+
+.header nav a{
+    color: #656464;
+    font-weight: 500;
+}
+#cor-nav-home{
+    color: #2B2B39;
+    font-weight: 600;
+}
+.class-nav{
+    padding: 40px;
+    margin-left: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+}
+#Logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2B2B39;
+
+}
+#botao-login{
+    margin-right: 135px;
+    background-color: #217BF4;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 123px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+}
+#png-logo{
+    height: 40px;
+}
