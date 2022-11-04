@@ -20,8 +20,7 @@ width: 585px;
 
 }
 #Home{
-    background: linear-gradient(to left top ,rgba(45, 129, 240, 0.301),white );
-}
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);}
 .home{
     display: flex;
     flex-direction: row;
@@ -35,13 +34,14 @@ width: 585px;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    height: 50px;
-    width: 200px;
+ 
 }
 .botao1home{
     color: white;
     border-style: none;
     border-radius: 14px;
+    height: 50px;
+    width:150px;
     background-color: #217BF4;
     
 }
@@ -50,6 +50,8 @@ width: 585px;
     border-color: #227df580;
     border-radius: 14px;
     color: #217BF4;
+    height: 50px;
+    width:150px;
 }
 .bnet{
     border-style: none;
