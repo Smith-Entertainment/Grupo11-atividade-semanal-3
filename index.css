@@ -14,25 +14,33 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter', sans-serif;
+    /* border-bottom: 1px solid #217BF4;*/
+
 }
 
 .nav {
 
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
 .header nav a {
     color: #656464;
+    font-size: 14px;
     font-weight: 500;
+    letter-spacing: 0.01em;
+
 }
 
 #community {
+    font-family: 'Inter', sans-serif;
     color: #656464;
+    letter-spacing: 0.01em;
     font-weight: 500;
     font-size: 14px;
-    border-color: #fff transparent transparent transparent;
-    border: 6px solid transparent;
+    border-color: transparent;
+    background: transparent;
 }
 
 #cor-nav-home {
@@ -121,27 +129,29 @@
     font-size: 16px;
     line-height: 28px;
     text-align: center;
+    width: 480px;
+
 }
 
 .sub-menu {
-
-    padding: 38px;
+    margin-top: 38px;
+    width: 474px;
+    height: 72px;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    background-color: #217BF4;
+    gap: 50px;
     border-radius: 14px;
-    opacity: 0.06;
 
+    background-color: #217BF4;
+    opacity: 0.06;
 }
 
 #botao-newst {
 
     background-color: #217BF4;
-    opacity: 0.8;
     font-family: 'Inter', sans-serif;
     color: #2F2C4A;
     font-size: 16px;
@@ -156,7 +166,6 @@
 #botao-popular {
 
     background-color: #217BF4;
-    opacity: 0.8;
     font-family: 'Inter', sans-serif;
     color: #2F2C4A;
     font-size: 16px;
@@ -177,7 +186,6 @@
     height: 56px;
     border-radius: 16px;
     border: none;
-
 }
 
 .conteudo-2 {
@@ -211,22 +219,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 14px;
 }
 
 #div-kazi {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 14px;
 }
 
 #div-masterero {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 14px;
 }
 
 #div-alia {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 14px;
 }
