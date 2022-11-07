@@ -247,11 +247,11 @@
     gap: 14px;
 }
 
-.Publicidade{
+.Publicidade {
     margin: 0;
     padding: 0;
     font-family: Inter;
-    background-color:#E5F0FD;
+    background-color: #E5F0FD;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -259,7 +259,7 @@
 
 }
 
-.Publicidade h2{
+.Publicidade h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
@@ -268,7 +268,7 @@
     color: #0A093D;
 }
 
-.Publicidade p{
+.Publicidade p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -277,7 +277,7 @@
     color: #656464;
 }
 
-#texto_azul{
+#texto_azul {
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
@@ -286,7 +286,7 @@
     color: #217BF4;
 }
 
-.Publicidade button{
+.Publicidade button {
     width: 145px;
     height: 52px;
     text-align: left;
@@ -296,23 +296,213 @@
     font-size: 10px;
 }
 
-.Publicidade b{
+.Publicidade b {
     font-size: 12px;
 }
 
-#apple{
+#apple {
     background-color: white;
     color: #202020;
 }
 
-#playstore{
+#playstore {
     background-color: #29284E;
     color: lightgray;
 }
 
-.icon{
+.icon {
     width: auto;
     height: 100%;
     float: left;
     margin-right: 5%;
+}
+
+body {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0%;
+
+}
+
+.h1home {
+    color: hsla(241, 74%, 14%, 1);
+    font-size: 56px;
+    font-weight: 700;
+
+}
+
+.imagemhome {
+    height: 501px;
+    width: 585px;
+
+}
+
+#Home {
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+
+}
+
+.botoeshome {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.botao1home {
+    color: white;
+    border-style: none;
+    border-radius: 14px;
+    height: 50px;
+    width: 150px;
+    background-color: #217BF4;
+
+}
+
+.botao2home {
+    background-color: white;
+    border-color: #227df580;
+    border-radius: 14px;
+    color: #217BF4;
+    height: 50px;
+    width: 150px;
+}
+
+.bnet {
+    border-style: none;
+    color: #217BF4;
+    background-color: #217cf42f;
+    border-radius: 8px;
+    height: 36px;
+    width: 160px;
+    left: 135px;
+}
+
+#footer {
+    background-color: #2B2B39;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-left: 5%;
+    font-weight: 400;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 90px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.homefot {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.mainlink {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#cirkle {
+    max-width: 200px;
+}
+
+.subs {
+    margin-top: 1%;
+
+}
+
+.subtext {
+    max-width: 300px;
+}
+
+input {
+
+    border-radius: 12px;
+}
+
+.insemail {
+    border: 1px solid white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+button {
+    border-radius: 12px;
+
+}
+
+input {
+    border-style: none;
+    background-color: #2B2B39;
+    display: flex;
+    width: 220px;
+    height: 48px;
+}
+
+#btft {
+    border-style: none;
+    background-color: white;
+    position: relative;
+    width: 126px;
+    height: 50px;
+    color: #2B2B39;
+}
+
+footer {
+    color: white;
+    height: 96px;
+    width: auto;
+    background-color: #20202D;
+}
+
+.ftext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoft {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#logopng {
+    height: 34px;
+    margin-top: 13%;
 }
