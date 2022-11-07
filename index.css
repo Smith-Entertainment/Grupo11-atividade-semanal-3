@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap');
 
 * {
@@ -242,4 +245,74 @@
     flex-direction: column;
     align-items: center;
     gap: 14px;
+}
+
+#Publicidade{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    background-color:#E5F0FD;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#Publicidade h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A093D;
+}
+
+#Publicidade p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #656464;
+}
+
+#texto_azul{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #217BF4;
+}
+
+#Publicidade button{
+    width: 145px;
+    height: 52px;
+    text-align: left;
+    border-style: none;
+    border-radius: 6px;
+    padding: 3% 3%;
+    font-size: 10px;
+}
+
+#Publicidade b{
+    font-size: 12px;
+}
+
+#apple{
+    background-color: white;
+    color: #202020;
+}
+
+#playstore{
+    background-color: #29284E;
+    color: lightgray;
+}
+
+.icon{
+    width: auto;
+    height: 100%;
+    float: left;
+    margin-right: 5%;
 }
