@@ -1,4 +1,11 @@
-#Sec-sobre {
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+    #Sec-sobre {
     position: absolute;
     display: inline-block;
     width: 550px;
@@ -67,10 +74,8 @@
 
 
 #Aside-sobre {
-
     display: inline-block;
     width: 650px;
-
     margin-left: 50%;
     margin-top: 100px;
 }
@@ -86,7 +91,8 @@
     display: inline-block;
     width: 300px;
     height: 550px;
-    margin-right: 0%;
+    margin-right: 0;
+    margin-left: 10px;
     text-align: center;
 
 }
