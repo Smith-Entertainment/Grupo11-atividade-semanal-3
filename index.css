@@ -248,11 +248,11 @@
     gap: 14px;
 }
 
-.Publicidade{
+.Publicidade {
     margin: 0;
     padding: 0;
     font-family: Inter;
-    background-color:#E5F0FD;
+    background-color: #E5F0FD;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -260,7 +260,7 @@
 
 }
 
-.Publicidade h2{
+.Publicidade h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
@@ -269,7 +269,7 @@
     color: #0A093D;
 }
 
-.Publicidade p{
+.Publicidade p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -278,7 +278,7 @@
     color: #656464;
 }
 
-#texto_azul{
+#texto_azul {
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
@@ -287,7 +287,7 @@
     color: #217BF4;
 }
 
-.Publicidade button{
+.Publicidade button {
     width: 145px;
     height: 52px;
     text-align: left;
@@ -297,21 +297,21 @@
     font-size: 10px;
 }
 
-.Publicidade b{
+.Publicidade b {
     font-size: 12px;
 }
 
-#apple{
+#apple {
     background-color: white;
     color: #202020;
 }
 
-#playstore{
+#playstore {
     background-color: #29284E;
     color: lightgray;
 }
 
-.icon{
+.icon {
     width: auto;
     height: 100%;
     float: left;
@@ -491,7 +491,7 @@
     display: inline-block;
     position: absolute;
     width: 522px;
-height: 182px;
+    height: 182px;
     top: 0;
     right: 0;
     background-color: #ffffff;
@@ -503,7 +503,7 @@ height: 182px;
     display: inline-block;
     position: absolute;
     width: 522px;
-height: 182px;
+    height: 182px;
     top: 255px;
     left: 0;
     background-color: #ffffff;
@@ -515,7 +515,7 @@ height: 182px;
     display: inline-block;
     position: absolute;
     width: 522px;
-height: 182px;
+    height: 182px;
     top: 255px;
     right: 0;
     background-color: #ffffff;
@@ -527,7 +527,7 @@ height: 182px;
     display: inline-block;
     position: absolute;
     width: 522px;
-height: 182px;
+    height: 182px;
     bottom: 0;
     left: 0;
     background-color: #ffffff;
@@ -539,7 +539,7 @@ height: 182px;
     display: inline-block;
     position: absolute;
     width: 522px;
-height: 182px;
+    height: 182px;
     bottom: 0;
     right: 0;
     background-color: #ffffff;
@@ -580,10 +580,10 @@ height: 182px;
     left: 130px;
     color: #656464;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 
 }
 
@@ -711,7 +711,7 @@ line-height: 26px;
 }
 
 input {
-    
+
     border-radius: 12px;
 }
 
@@ -768,4 +768,348 @@ footer {
 #logopng {
     height: 34px;
     margin-top: 13%;
+}
+
+
+.titulo {
+
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    font-weight: 700;
+
+}
+
+#Notícias{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.GOA {
+    color: #217BF4;
+
+}
+
+.png1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 5%;
+}
+
+.subt {
+    margin: 0 25px 0 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.line {
+    margin: 25px -120px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 145px;
+    padding-top: 1%;
+}
+
+.text1 {
+
+
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+    gap: 350px;
+    row-gap: 350px;
+    column-gap: 370px
+}
+
+.seta1 {
+
+    margin: -16px 865px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 288px;
+    color: gray;
+}
+
+.seta2 {
+
+    margin: -15px -185px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 288px;
+    color: blue;
+}
+
+.seta3 {
+
+    margin: -16px -1220px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 289px;
+    color: gray;
+}
+
+
+
+/* parte de avaliaçoes*/
+
+.titulo2 {
+    margin: 0 110px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3%;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    font-weight: 700;
+    color: #0A093D;
+
+}
+
+.subtt {
+
+    margin: 0 341px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    position: relative;
+    top: 87px;
+    font-weight: 700;
+    padding-top: 1%;
+    color: #217BF4;
+}
+
+.text2 {
+
+    margin: 0 119px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    position: relative;
+    top: 87px;
+    font-weight: 700;
+    padding-top: 1%;
+    color: #656464;
+}
+
+.botao {
+
+    margin-left: 1010px;
+    /* posiçao do botao na tela*/
+    position: relative;
+    top: 120px;
+    /* posiçao do botao na tela pra cima*/
+    background-color: #217BF4;
+    /* cor do botao*/
+    border-style: none;
+    /*tirar a borda preta do botao*/
+    border-radius: 14px;
+    /* deixar o formato do botao como redondo*/
+    width: 150px;
+    /* largura do botao*/
+    height: 56px;
+    /* altura do botao*/
+    font-size: 14px;
+    /* tamanho da fonte que esta no botao*/
+    /* fonte importada para o botao*/
+    font-weight: 700;
+    /* grossura da palavra dentro do botao*/
+    color: white;
+    /* cor da palavra help-me dentro do botao*/
+}
+
+.flecha1 {
+
+    margin: 79px -776px 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+    color: white;
+
+}
+
+.box {
+    position: absolute;
+    width: 336px;
+    height: 340px;
+    left: 559px;
+    top: 110px;
+
+    background: white;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+}
+
+.box2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 336px;
+    height: 340px;
+    left: 149px;
+    top: 110px;
+
+    background: white;
+    border-radius: 14px;
+}
+
+.texbox {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 2.88%;
+    right: 14%;
+    top: 16.6%;
+    font-weight: 700;
+    color: #0A093D;
+
+}
+
+.trofeu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 2.88%;
+    right: 22.88%;
+    top: 19.6%;
+    color: #217BF4;
+}
+
+.texto3 {
+    margin: -302px 700px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    position: relative;
+    top: 87px;
+    font-weight: 700;
+    padding-top: 1%;
+    color: #5D5B70;
+}
+
+.A {
+    color: blue;
+}
+
+.png3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 38.5%;
+    top: 28.5%;
+
+}
+
+.text4 {
+    margin: 42px 60px 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    position: relative;
+    top: 87px;
+    color: #8C8C8C;
+}
+
+.text5 {
+    margin: 90px 220px 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    position: relative;
+    top: 87px;
+    color: #8C8C8C;
+}
+
+.flecha2 {
+    margin: -16.5px 80px 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    position: relative;
+    top: 87px;
+    color: #8C8C8C;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 8%;
+    right: 81%;
+    top: 21%;
+    color: #217BF4;
+}
+
+.text6 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 8%;
+    right: 71%;
+    top: 19%;
+    color: #000000;
+}
+
+.png2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 11%;
+    top: 27%;
+}
+
+.text7 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 17%;
+    top: 26%;
+}
+
+.b {
+    color: #217BF4;
+}
+
+.text8 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    left: 12%;
+    top: 37%;
+    color: #8C8C8C;
+
+}
+
+.text9 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    left: 12%;
+    top: 57%;
+    color: #217BF4;
+}
+
+.flecha3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    left: 24%;
+    top: 59.5%;
+    color: #217BF4;
 }
